@@ -1,6 +1,5 @@
 import os
 import logging
-import apidata
 from telegram import ReplyKeyboardMarkup
 from telegram.ext import (Updater, CommandHandler, MessageHandler, Filters, RegexHandler,
                           ConversationHandler)
